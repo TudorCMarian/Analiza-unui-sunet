@@ -1,0 +1,1 @@
+-force-include-file "Et1.c";"d:\Marian Tudor\etapa 1\Et1.c" -force-include-file "Et1.h";"d:\Marian Tudor\etapa 1\Et1.h" -force-include-file "my_functions.h";"d:\Marian Tudor\etapa 1\my_functions.h" 

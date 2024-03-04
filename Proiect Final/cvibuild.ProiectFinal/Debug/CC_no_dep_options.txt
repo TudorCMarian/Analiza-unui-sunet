@@ -1,0 +1,1 @@
+-force-include-file "CodSursa.c";"d:\Marian Tudor\Proiect Final\CodSursa.c" -force-include-file "Header.h";"d:\Marian Tudor\Proiect Final\Header.h" -force-include-file "my_functions.h";"d:\Marian Tudor\Proiect Final\my_functions.h" 
