@@ -1,5 +1,5 @@
 # Analiza-unui-sunet
-**UNIVERSITATEA TEHNICĂ “GH ASACHI” IAŞI  ![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.001.png)FACULTATEA DE AUTOMATICĂ ŞI CALCULATOARE**  
+**UNIVERSITATEA TEHNICĂ “GH ASACHI” IAŞI  ![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.001.png)FACULTATEA DE AUTOMATICĂ ŞI CALCULATOARE**  
 
 **SPECIALIZAREA: CALCULATOARE ŞI TEHNOLOGIA INFORMAŢIEI** 
 
@@ -53,7 +53,7 @@ Execuția scriptului Python realizează conversia fișierului „54.wav’’ î
 
 `         `Se realizează afișarea pe un control de tip Graph a semnalului audio inițial. Se dorește calcularea  și  afișarea  valorilor:  minim,  maxim,  indexul  acestora,  medie,  dispersie,  mediana, numărul de treceri prin zero, precum calcularea și afișarea histogramei. 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.002.png)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.002.png)
 
 Se implementează funcțiile pentru filtrarea semnalului după două metode: 
 
@@ -65,13 +65,13 @@ conform relației:  filt[i] = (1-alpha) \* filt[i-1]+  alpha \* signal[i]
 
 Pentru filtrul de ordin I, valorile parametrului alpha se vor afla în intervalul (0,1). Amplitudinea semnalului este mult mai mică față de cea a semnalului inițial. Cu cât valoarea lui alpha este mai aproape de 0 se observă mai bine rezultatul filtrării, iar dacă parametrul alpha are valori apropiate de 1, semnalul filtrat are o amplitudine apropiată de cea a semnalului inițial.
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.003.png)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.003.png)
 
 *alpha = 0.1* 
 
 - **Mediere (16 sau 32 de elemente)** 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.004.png)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.004.png)
 
 *16 elemente* 
 
@@ -79,15 +79,15 @@ Pentru filtrul de ordin I, valorile parametrului alpha se vor afla în intervalu
 
 Se afișează anvelopa semnalului pe același grafic unde s-a reprezentant semnalul audio inițial. 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.005.png)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.005.png)
 
 **Histograma și derivata** 
 
 Histograma semnalui și derivata acestuia se afișează în panouri create separat. 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.006.png)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.006.png)
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.007.png)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.007.png)
 
 - **Analiza în domeniul frecvență** 
 
@@ -95,30 +95,30 @@ Histograma semnalui și derivata acestuia se afișează în panouri create separ
 
 `             `Vom analiza mai întâi efectul ferestruirii semnalului cu fiecare tip de fereastră pus la dispoziție în interfața grafică. 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.008.jpeg)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.008.jpeg)
 
 ***Transformata Fourier calculată în N = 1024 de puncte*** 
 
 **Fereastra Hanning** 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.009.jpeg)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.009.jpeg)
 
 Se poate observa că fereastra Hanning aplatizează semnalul la capete și îl bombează la mijloc. 
 
 **Fereastra Hamming** 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.010.jpeg)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.010.jpeg)
 
 Se poate observa că fereastra Hamming are aproximativ același efect ca Hanning, doar că nu la fel de intens. 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.011.png)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.011.png)
 
 Reprezentarea spectrului are o dimensiune egală cu jumătate din frecvența de eșantionare a semnalului. 
 
 **Filtru Chebyshev II, trece sus cu frecvența de tăiere fcut = 800** 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.012.jpeg)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.012.jpeg)
 
 **Filtru Eliptic, trece sus cu frecvența de tăiere fcut = 800** 
 
-![](./readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.013.jpeg)
+![](readme/readmeAspose.Words.42b07bce-68f3-4049-9ab1-dd07f0df2272.013.jpeg)
